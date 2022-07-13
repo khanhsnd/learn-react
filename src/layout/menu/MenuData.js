@@ -236,6 +236,10 @@ const menu = [
         text: "Faqs / Help",
         link: "/pages/faq",
       },
+      {
+        text: "Organization",
+        link: "/pages/org",
+      },
     ],
   },
   {

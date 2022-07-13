@@ -114,6 +114,7 @@ import BeautifulDnd from "../pages/components/misc/BeautifulDnd";
 import DualListPage from "../pages/components/misc/DualListbox";
 import GoogleMapPage from "../pages/components/misc/GoogleMap";
 import { FileManagerContextProvider } from "../pages/app/file-manager/FileManagerContext";
+import Org from "../pages/others/Org";
 
 const Pages = () => {
   useLayoutEffect(() => {
@@ -224,6 +225,7 @@ const Pages = () => {
         {/*Demo Pages*/}
         <Route exact path={`${process.env.PUBLIC_URL}/pages/terms-policy`} component={Terms}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/pages/faq`} component={Faq}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/pages/org`} component={Org}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/pages/regular-v1`} component={Regularv1}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/pages/regular-v2`} component={Regularv2}></Route>
 
