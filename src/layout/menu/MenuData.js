@@ -602,7 +602,13 @@ const menu = [
         link: "/email-template",
         active: "false",
       },
+      {
+        text: "Email Template",
+        link: "/email-template-hanh-hanh",
+        active: "false",
+      },
     ],
   },
+  
 ];
 export default menu;
