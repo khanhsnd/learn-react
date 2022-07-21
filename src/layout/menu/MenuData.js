@@ -306,6 +306,10 @@ const menu = [
         text: "Terms / Policy",
         link: "/pages/terms-policy",
       },
+      {
+        text: "Terms / Policy / Hanh",
+        link: "/pages/terms-policy",
+      },
     ],
   },
   {
